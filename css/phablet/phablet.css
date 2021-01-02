@@ -1,0 +1,194 @@
+@media screen and (max-width: 512px) {
+  nav .nav1,
+  nav .nav2 {
+    width: 90vw;
+  }
+  nav .nav1.responsive,
+  nav .nav2.responsive {
+    right: 5%;
+  }
+  nav .nav2 .auth {
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 30px;
+  }
+  nav .nav2 .auth a {
+    padding: 3% 10%;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    word-wrap: normal;
+  }
+  .shit > header {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .shit > header aside {
+    margin-bottom: 150px;
+  }
+  .shit > header main .title {
+    margin-top: 0;
+  }
+  .shit > header main .get-started a {
+    padding: 15px;
+    width: 60vw;
+    text-align: center;
+  }
+  .shit > header aside .illustration {
+    right: 0;
+  }
+  .shit > header aside .illustration img {
+    width: 150%;
+  }
+  main header {
+    background-image: url("../../images/bg-shorten-mobile.svg");
+    background-size: 100% 100%;
+    height: 150px;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 50% 50%;
+        grid-template-rows: 50% 50%;
+  }
+  main header div input {
+    height: 60%;
+    width: 85%;
+    padding: 7px 12px;
+    right: unset;
+    bottom: 9px;
+  }
+  main header div button {
+    position: absolute;
+    height: 60%;
+    left: unset;
+    top: 9px;
+    font-size: 100%;
+    border-radius: 5px;
+  }
+  main section .shortened {
+    display: block;
+    height: auto;
+    padding: 0;
+  }
+  main section .shortened .link-short {
+    display: block;
+    margin: 0;
+  }
+  main section .shortened .link-short h5 {
+    margin: 5px 0;
+    padding: 15px 20px;
+    font-size: 1em;
+    font-weight: normal;
+  }
+  main section .shortened .link-short h5:nth-child(1) {
+    border-bottom: 1px solid #eeeeee;
+    overflow-x: hidden;
+  }
+  main section .shortened .copy-link {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main section .shortened .copy-link button {
+    margin-bottom: 20px;
+    height: 35px;
+  }
+  section .advanced .title h2 {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  section .advanced .para p {
+    margin: 0;
+    width: 100%;
+  }
+  section .cards-wrap {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 33% 33% 33%;
+        grid-template-rows: 33% 33% 33%;
+    position: relative;
+  }
+  section .cards-wrap::before {
+    width: 8px;
+    height: 80%;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    left: 45.5vw;
+    bottom: -5%;
+  }
+  section .cards-wrap .cards {
+    padding: 0 30px 40px;
+  }
+  section .cards-wrap .cards.card2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  section .cards-wrap .cards .i {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section .cards-wrap .cards h3 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  section .cards-wrap .cards p {
+    text-align: center;
+    font-size: 14px;
+  }
+  article {
+    background-image: url("../../images/bg-boost-mobile.svg");
+  }
+  article .background .boost-start {
+    margin: 20px 0;
+  }
+  article .background .boost h1 {
+    font-size: 1.2em;
+  }
+  footer {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: unset;
+        grid-template-rows: unset;
+  }
+  footer .secs {
+    display: block;
+  }
+  footer .secs.sec1 {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    margin-top: 40px;
+  }
+  footer .secs.sec1 img {
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    width: 35%;
+  }
+  footer .secs.sec2 {
+    text-align: center;
+    padding: 0;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+  }
+  footer .secs.sec2 .options {
+    margin-bottom: 30px;
+  }
+  footer .secs.sec2 .options h3 {
+    font-size: 1.25em;
+  }
+  footer .secs.sec2 .options span {
+    font-size: 120%;
+  }
+  footer .secs.sec3 {
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    right: unset;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: unset;
+  }
+  footer .secs.sec3 i {
+    font-size: 200%;
+  }
+}
+/*# sourceMappingURL=phablet.css.map */
